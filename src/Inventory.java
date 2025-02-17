@@ -25,4 +25,7 @@ resizeable
 
 Array - stores strings, int not objects
 fixed
+
+Polymorphism
+Override and Overloading are elements of polymorphism
  */

@@ -24,4 +24,12 @@ public class Weapon extends Item{
     public void setType(String type) {
         this.type = type;
     }
+
+    @Override
+    public String toString() {
+        return "Weapon: " + getName() + ", Quantity: " + getQuantity() +
+                ", Damage: " + damage +
+                ", Type: '" + type + '\'' +
+                '}';
+    }
 }

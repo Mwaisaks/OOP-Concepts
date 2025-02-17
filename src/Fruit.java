@@ -6,6 +6,13 @@ public class Fruit extends Item{
         super(name, quantity);
         this.type = type;
     }
+
+    @Override
+    public String toString() {
+        return "Fruit:" + getName() + ", Quantity: " + getQuantity() +
+                "Type: '" + type + '\'' +
+                '}';
+    }
 }
 
 /*
